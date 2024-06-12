@@ -1,1 +1,1 @@
-# Email_Sender_API
+Console based App
