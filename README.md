@@ -25,5 +25,5 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your/repository.git
-   cd repository-folder
+   git clone https://github.com/INYAT-gif/Email_Sender_API
+   cd Email_Sender_API
