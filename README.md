@@ -1,7 +1,4 @@
-# G46 Email Sender API
-
-The G46 Email Sender API is a Java-based application designed to provide a robust and user-friendly interface for programmatically sending emails. Built on Spring Boot, it offers scalable and reliable email communication capabilities.
-
+# Email Sender API
 ## Features
 
 - **RESTful API**: Provides REST endpoints for sending emails with customizable configurations.
