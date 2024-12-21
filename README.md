@@ -1,26 +1,62 @@
 https://inyat-gif.github.io/Email_Sender_API/
-## Features
+A RESTful API to send emails through various email services using Node.js and Nodemailer. It allows integration with other applications to send emails programmatically.
+---
+## 🚀 Features
+- Send emails via SMTP or services like Gmail, SendGrid, etc.
+- RESTful API to send HTML and plain-text emails.
+- Supports custom email configurations.
 
-- **RESTful API**: Provides REST endpoints for sending emails with customizable configurations.
-- **Customizable Properties**: Configure email settings via `email.properties` and application-wide properties in `application.properties`.
-- **Exception Handling**: Robust exception handling (`RESTExceptionHandler.java`) ensures reliable operation.
-- **Data Transfer Objects (DTOs)**: Uses `EmailDTO.java` for structured data exchange between the API and clients.
-- **Persistence**: Utilizes `Email.java` entities and `EmailRepository.java` for storing and managing email data.
-- **Maven-based Build**: Dependency management and build automation using Maven (`pom.xml`).
+---
+## 🛠️ Technologies
 
-## Getting Started
+- **Node.js**: Backend framework.
+- **Express**: Web server framework.
+- **Nodemailer**: Email sending module.
+- **SMTP**: Email protocol for sending emails.
 
-### Prerequisites
-
-Ensure you have the following installed:
-
-- Java 8 or higher
-- Maven
-
-### Installation
+---
+## ⚙️ Getting Started
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/INYAT-gif/Email_Sender_API
+   git clone https://github.com/INYAT-gif/Email_Sender_API.git
    cd Email_Sender_API
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Configure email credentials in the `config.js` file.
+
+4. Start the API server:
+
+   ```bash
+   node server.js
+   ```
+
+Access the API at: [http://localhost:5000](http://localhost:5000)
+
+---
+
+## 📚 API Documentation
+
+- **POST /send-email**  
+  Send an email with the provided subject, body, and recipient.
+
+  **Request body:**
+  ```json
+  {
+    "to": "recipient@example.com",
+    "subject": "Subject of the email",
+    "text": "Plain text or HTML content of the email"
+  }
+  ```
+
+---
+
+Made with ❤️ by [Inyat Nathani](https://www.linkedin.com/in/inyat/)
+```
