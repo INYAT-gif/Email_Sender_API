@@ -1,4 +1,4 @@
-# Email Sender API
+https://inyat-gif.github.io/Email_Sender_API/
 ## Features
 
 - **RESTful API**: Provides REST endpoints for sending emails with customizable configurations.
